@@ -3,11 +3,11 @@ package main
 import (
 	"context"
 	"flag"
+	"github.com/quantum0cat/simple-http-mux/internal/http_mux"
 	"log"
 	"math"
 	"os"
 	"os/signal"
-	"simple-http-mux/internal/http_mux"
 	"syscall"
 	"time"
 )

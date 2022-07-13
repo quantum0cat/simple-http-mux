@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/quantum0cat/simple-http-mux/pkg/netutil"
 	"log"
 	"net"
 	"net/http"
-	"simple-http-mux/pkg/netutil"
 	"time"
 )
 

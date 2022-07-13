@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"github.com/quantum0cat/simple-http-mux/internal/models"
 	"github.com/stretchr/testify/assert"
 	"log"
 	"net/http"
 	"net/http/httptest"
-	"simple-http-mux/internal/models"
 	"testing"
 	"time"
 )

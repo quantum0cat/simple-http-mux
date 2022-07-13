@@ -7,13 +7,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/quantum0cat/simple-http-mux/internal/models"
+	"github.com/quantum0cat/simple-http-mux/pkg/errgroup"
+	"github.com/quantum0cat/simple-http-mux/pkg/utils"
 	"io/ioutil"
 	"log"
 	"math/rand"
 	"net/http"
-	"simple-http-mux/internal/models"
-	"simple-http-mux/pkg/errgroup"
-	"simple-http-mux/pkg/utils"
 	"time"
 )
 

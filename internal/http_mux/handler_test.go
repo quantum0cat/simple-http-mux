@@ -5,11 +5,11 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"github.com/quantum0cat/simple-http-mux/internal/models"
 	"github.com/stretchr/testify/assert"
 	"io"
 	"net/http"
 	"net/http/httptest"
-	"simple-http-mux/internal/models"
 	"testing"
 )
 

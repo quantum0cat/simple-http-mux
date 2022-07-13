@@ -3,12 +3,12 @@ package http_mux
 import (
 	"context"
 	"encoding/json"
+	"github.com/quantum0cat/simple-http-mux/internal/http_fetcher"
+	"github.com/quantum0cat/simple-http-mux/internal/models"
+	"github.com/quantum0cat/simple-http-mux/pkg/utils"
 	"io"
 	"log"
 	"net/http"
-	"simple-http-mux/internal/http_fetcher"
-	"simple-http-mux/internal/models"
-	"simple-http-mux/pkg/utils"
 	"sync/atomic"
 	"time"
 )

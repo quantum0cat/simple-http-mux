@@ -3,10 +3,10 @@ package http_fetcher
 import (
 	"context"
 	"fmt"
+	"github.com/quantum0cat/simple-http-mux/internal/models"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"
-	"simple-http-mux/internal/models"
 	"testing"
 	"time"
 )
