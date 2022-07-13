@@ -1,2 +1,3 @@
 .idea
 /cmd/main/main
+/logs/all.log

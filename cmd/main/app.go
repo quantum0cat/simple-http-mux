@@ -4,6 +4,7 @@ import (
 	"context"
 	"flag"
 	"github.com/quantum0cat/simple-http-mux/internal/http_mux"
+	"github.com/quantum0cat/simple-http-mux/pkg/logging"
 	"log"
 	"math"
 	"os"
@@ -16,6 +17,7 @@ const defaultPort = 10000
 const defaultMaxConns = 100
 
 func main() {
+	logging.Init()
 	//better to move it to config, but we got no external modules limitation
 	portVal := flag.Uint("p", defaultPort, "port to listen on")
 	maxConns := flag.Uint("m", defaultMaxConns, "max connections limit (0 -> no limit)")
