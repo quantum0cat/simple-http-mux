@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  simple-http-mux:
+    build: .
+    ports:
+      - "10000:10000"
+    restart: unless-stopped
+
+
+
+

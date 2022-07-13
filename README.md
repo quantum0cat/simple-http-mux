@@ -16,8 +16,21 @@
 - only standart go packages
 - deploy and start with docker-compose
 
+To start:
+
+`git clone https://github.com/quantum0cat/simple-http-mux.git`
+
+`cd simple-http-mux`
+
+`docker-compose up`
+
+To stop:
+
+`docker-compose stop simple-http-mux`
+
 
 **Example curl request:**
+
 `curl -X POST http://localhost:10000 -H 'Content-Type: application/json' \
 -d '{
     "urls":[
