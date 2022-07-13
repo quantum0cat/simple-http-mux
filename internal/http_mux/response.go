@@ -1,10 +1,10 @@
 package http_mux
 
 import (
-	"fmt"
 	"net/http"
 )
 
-func sendError(w *http.ResponseWriter, message string, statusCode int) {
-	http.Error(*w, fmt.Sprintf(`{"error":"%s"}`, message), statusCode)
+//aux func to send error to writer
+func sendError(w http.ResponseWriter, message string, statusCode int) {
+	http.Error(w, message, statusCode)
 }
